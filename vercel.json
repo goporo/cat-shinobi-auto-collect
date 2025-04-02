@@ -2,10 +2,8 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "name": "cat-shinobi-collector",
-  "framework": null,
-  "regions": ["sin1"],
   "functions": {
-    "src/api/**/*.js": {
+    "api/**/*.js": {
       "memory": 1024,
       "maxDuration": 10
     }
@@ -13,34 +11,15 @@
   "rewrites": [
     {
       "source": "/api/collect",
-      "destination": "/src/api/collect.js"
+      "destination": "/api/collect"
     },
     {
       "source": "/api/player/:player_id",
-      "destination": "/src/api/player/[player_id].js"
+      "destination": "/api/player/[player_id]"
     },
     {
       "source": "/api/logs",
-      "destination": "/src/api/logs.js"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/api/(.*)",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        },
-        {
-          "key": "Access-Control-Allow-Methods",
-          "value": "GET,POST,OPTIONS"
-        },
-        {
-          "key": "Access-Control-Allow-Headers",
-          "value": "Content-Type, Authorization"
-        }
-      ]
+      "destination": "/api/logs"
     }
   ],
   "crons": [

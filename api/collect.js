@@ -1,4 +1,4 @@
-const { collector } = require('../index');
+const { collector } = require('./src');
 
 /**
  * Vercel API endpoint for collecting the daily Ruby Cat Stone

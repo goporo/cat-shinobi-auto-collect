@@ -12,12 +12,12 @@ Serverless API for collecting daily free Ruby Cat Stones from the Cat Shinobi ga
 ## Project Structure
 
 ```
+├── api/                # API routes for Vercel serverless functions
+│   ├── collect.js      # Default collection endpoint (used by cron)
+│   ├── logs.js         # Logs retrieval endpoint
+│   └── player/         # Player-specific endpoints
+│       └── [player_id].js  # Dynamic route for collecting by player ID
 ├── src/                # Core application code
-│   ├── api/            # API routes for Vercel serverless functions
-│   │   ├── collect.js  # Default collection endpoint (used by cron)
-│   │   ├── logs.js     # Logs retrieval endpoint
-│   │   └── player/     # Player-specific endpoints
-│   │       └── [player_id].js  # Dynamic route for collecting by player ID
 │   ├── config.js       # Configuration settings
 │   ├── index.js        # Main entry point
 │   ├── services/       # Service modules
