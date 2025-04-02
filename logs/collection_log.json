@@ -1,0 +1,11 @@
+{
+  "lastCollected": null,
+  "history": [
+    {
+      "date": "2025-04-02T17:42:54.748Z",
+      "success": false,
+      "error": "Request failed with status code 422"
+    }
+  ],
+  "authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IiIsImV4cCI6MTc0MzcwMjE3MywiZ3JvdXBzIjpbeyJpZCI6NTQ1MjksIm5hbWUiOiJkZWZhdWx0IiwiaXNfYWN0aXZlIjp0cnVlLCJpc19kZWZhdWx0Ijp0cnVlfV0sImlhdCI6MTc0MzYxNTc3MywiaXNzIjoiaHR0cHM6Ly9sb2dpbi54c29sbGEuY29tIiwicGF5bG9hZCI6IntcInByb2R1Y3RcIjpcInNpdGUtYnVpbGRlclwiLFwic2ItYXV0aC10eXBlXCI6XCJ1c2VyX2lkXCIsXCJ1c2VySW5mb1wiOntcImlkXCI6XCIwMUpQUFlaNEpQUFg0SENKUkEyVkozMFg4SFwifX0iLCJwdWJsaXNoZXJfaWQiOjc1NTQ5Mywic2VydmVyX2N1c3RvbV9pZCI6IjAxSlBQWVo0SlBQWDRIQ0pSQTJWSjMwWDhIIiwic3ViIjoiMWExY2Y0NTctMDc1Yi00NDEzLTkzNTAtMzAwMTQxZjg3MDc2IiwidHlwZSI6InNlcnZlcl9jdXN0b21faWQiLCJ1c2VybmFtZSI6bnVsbCwieHNvbGxhX2xvZ2luX2FjY2Vzc19rZXkiOiJWeXhBaVZYU1N2VGl4MWhYSzV3RXV1VDU2M1AtUE1hWDhMNWNGeUFoT2drIiwieHNvbGxhX2xvZ2luX3Byb2plY3RfaWQiOiI1OWY1YzRhYS1iZGRiLTRjNmUtOGZlYi0wOGFhZjRlZGM2ZmUifQ.8bH7lUPon-YctalQ4_ev3tRocy9DEr8j2B_cAJdiH4E"
+}

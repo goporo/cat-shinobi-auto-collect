@@ -1,0 +1,28 @@
+{
+  "name": "cat-shinobi-collector",
+  "version": "1.0.0",
+  "description": "Serverless API for daily collection of Ruby Cat Stones from Cat Shinobi",
+  "main": "index.js",
+  "scripts": {
+    "collect": "node src/index.js",
+    "dev": "vercel dev",
+    "logs": "node -e \"console.log(require('./src').logger.getLogs())\""
+  },
+  "keywords": [
+    "cat-shinobi",
+    "automation",
+    "serverless",
+    "vercel"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.5.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

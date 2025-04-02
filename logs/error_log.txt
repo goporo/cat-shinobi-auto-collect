@@ -1,0 +1,3 @@
+[2025-04-02T17:42:54.752Z] Failed to collect daily Ruby Cat Stone: Request failed with status code 422
+[2025-04-02T17:42:54.755Z] Response data: {"statusCode":422,"errorCode":1460,"errorMessage":"[0401-1460]: You have reached purchase limit of the item: nns_shop_akaneko_1_1_web_free","transactionId":"84d56958c954874c06c166b174101545"}
+[2025-04-02T17:42:54.757Z] Response status: 422
