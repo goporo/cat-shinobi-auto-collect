@@ -1,4 +1,4 @@
-const { logger } = require('./src');
+const { logger } = require('../src');
 
 /**
  * Vercel API endpoint for retrieving collection logs

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "collect": "node src/index.js",
-    "dev": "vercel dev",
+    "start": "vercel dev",
     "logs": "node -e \"console.log(require('./src').logger.getLogs())\""
   },
   "keywords": [
